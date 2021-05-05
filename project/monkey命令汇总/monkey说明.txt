@@ -1,0 +1,23 @@
+bat：命令行
+monkey0503：输出报告
+
+adb命令：
+获取设备信息：adb devices
+
+查询所有包名： adb shell pm list packages
+
+1，adb devices
+2，adb connect 127.0.0.1:62001,
+3，adb shell monkey -p 包名 -v 2000 --throttle 2000 --pct touch 100
+指定APP最详细日志操作点击500次并且保存在本地电脑
+-p:指定包名
+
+-v:指定动作操作的次数
+
+--throttle:设定操作间的间隔，1000=一秒
+
+--pct touch:指定对应操作的百分比
+
+
+运行monkey并且保存日志到d盘
+
