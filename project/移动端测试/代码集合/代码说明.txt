@@ -1,0 +1,6 @@
+所测项目拥有两个app，一个家长端，一个教师端
+1，
+家长端包名com.example.homeworkcorrect；
+教师端包名com.example.homeworkcorrectteacher。
+activity：MainActivity
+
