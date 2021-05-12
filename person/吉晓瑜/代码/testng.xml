@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" parallel="none">
+	<test name="t1" preserve-order="true">
+		<classes>
+		 	<class name="testcases.LscParentsTest" />
+		 	<class name="testcases.CheckParentsTest" />
+			<class name="testcases.IssueParentsTest" />
+		</classes>
+	</test>
+
+</suite>

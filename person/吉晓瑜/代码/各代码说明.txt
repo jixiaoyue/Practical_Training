@@ -8,4 +8,6 @@ testcase含有测试用例共计22条：1，CheckParentsTest.java(家长圈浏�
 
 Utils 中 BaseAction具有对app页面的基本操作，eg：点击，输入，左右滑动等操作。（新增操作，左右滑动，坐标点击）
 
+testng.xml控制testcases用例执行
+
 
