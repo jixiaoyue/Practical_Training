@@ -1,0 +1,11 @@
+组内采用po模式
+
+page含有：LoginPage.java; ParentsEditor.java;ParentsListPage.java;均是对应控件及业内方法。
+
+testcase含有测试用例共计22条：1，CheckParentsTest.java(家长圈浏览动态的测试用例集合）;
+2，IssueParentsTest.java（发布动态测试用例集合）;
+3，LscParentsTest.java（点赞，分析，评论的测试用例).
+
+Utils 中 BaseAction具有对app页面的基本操作，eg：点击，输入，左右滑动等操作。（新增操作，左右滑动，坐标点击）
+
+
