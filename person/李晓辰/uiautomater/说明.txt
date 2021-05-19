@@ -1,0 +1,3 @@
+ uiautomator使用
+BaseTest获取设备，链接模拟器，打开软件，进行登录
+RewardTest是测试用例，使用uiautomater，使用appium获取元素
